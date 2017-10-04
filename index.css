@@ -1,0 +1,123 @@
+/*公共部分*/
+html{font-size: 50px;}
+ul {padding: 0;}
+li{list-style:none;}
+.col-center-block {float: none; display: block;margin:0 auto;}
+
+/*PC部分*/
+@media (min-width:1200px){
+	.body{width: 1200px;}
+	.nav>li>a{padding: 15px 10px;}
+	.nav-style{padding-top: 15px;height: 80px;background-color: #fff;} 
+	.header{background-image: url(img/pc/pcHeader.jpg);float:none;height: 515px;background-size: 100% 100%;background-repeat: no-repeat;}
+	.logo{display:inline-block;width:160px;height:50px;margin-right:40px;background-image: url(img/pc/pcLogo.jpg);}
+	.navbar-default .navbar-nav>li>a{font-size: 21px;}
+	.national{display:inline-block;width:16px;height:11px;margin-right:9px;background-image: url(img/pc/national.jpg);}
+	.fenge{display:inline-block;width: 1px;height: 10px;background-color: #000;margin:0 6px;}
+	.navbar-right li{margin-right:5px;color: #666;}
+	.navbar-right .li-one{margin-top: 14.5px;}
+	.glyphicon{color: #4272B8;}
+	.banner{display: none;}
+	.selectTicket{background-color: white;border: 1px solid #799CCE;box-shadow: 0px 0px 3px 0px #5581C0;padding: 0;position: relative;top: -70px;}
+	.selectTicket ul li a{border-top:2px solid #124F9E;font-size:24px;background-color:#124F9E;border-radius:0 !important;border-left: 1px solid #fff;color:white;}
+	.selectTicket ul .active a{color:#124F9E;border-top: 2px solid red !important;}
+	.selectTicket ul .formBtn{padding: 0;}
+	.nav-tabs>li>a:hover{background-color:#fff;color:#124F9E !important;}
+	.selectTicket .formDiv{height: 161px;position:relative;float:none; display: inline-block;border: 1px solid #5581C0; box-shadow: 0px 0px 3px 0px #5581C0;padding-top:10px;border-radius: 3px;margin-top: 25px;}
+	.selectTicket .formDiv .biaoyu{position: absolute;top: 10px;z-index: 9;color: #999;font-size: 16px;}
+	.selectTicket .formDiv .sub{background-color: #4272B8;color: white;height: 80px;}
+	.selectTicket .formDiv3{width: 24%;padding-left: 0;padding-right: 0;}
+	.ticketForm{padding: 22px;}
+	.ticketForm span{margin-left: 15px;}
+	.ticketForm .textIpt{height: 70px;border: 0;outline:none;font-size: 20px;color: #333;}
+	.ticketForm .textIpt:nth-last-child(1){border-top: 1px solid #ccc;}
+	.wapIpt{display: none;}
+	.biaoti{font-size: 28px;margin:0 30px 30px 0;display: inline-block;}
+	.discounts{margin-top: -30px;}
+	.discounts .chufa{font-size: 21px;}
+	.discounts .depart {color: #666;font-size: 21px;margin-left: 10px;}
+	.OffersBox .Box-right{margin-left: 20px;}
+	.OffersBox .Box-right p {margin:0;}
+	.OffersBox .Box-right .site{color: #333;font-size: 21px;}
+	.OffersBox .Box-right .time{color: #999;font-size: 16px;}
+	.OffersBox .Box-right .cost{color: #d81e1e;font-size: 18px;}
+	.OffersBox .Box-right .economy{color: #999;font-size: 16px;border-bottom: 1px solid #666;padding-bottom: 10px;}
+	.OffersBox .Box-right .guide{color: #134d9e;font-size: 18px;margin-top: 10px;}
+	.Promotions{margin: 50px 0;}
+	.Promotions .view{font-size: 18px;}
+	.Promotions .ProText{padding: 20px 0 0 20px;}
+	.Promotions .ProText li{border-bottom: 1px solid #eee;line-height: 50px;}
+	.Promotions .ProText li a{font-size: 18px;color: #666;}
+	.Promotions .ProText li span{display: inline-block;float: right;font-size: 16px;}
+	.Promotions .ProText .topic{font-size: 28px;color: #333;}
+	.Promotions .ProText .topic a{font-size: 18px;color:#134d9e;display: inline-block;float: right;}
+	.PromotionsBottom{display: none;}
+	.bottom-top{background-color: #eee;padding: 20px 0;}
+	.bottom .bottom-top ul{width:1200px;}
+	.bottom-top .vip{font-size: 18px;margin:10px 0 5px 0;}
+	.bottom-top p{font-size: 16px;padding: 0 11px;color: #333;}
+	.bottom-top .ulTwo{margin-top: 50px;}
+	.bottom-top .ulTwo li{line-height: 40px;color: #333;font-size: 18px;}
+	.bottom{position: relative;overflow: hidden;}
+	.bottom .feiji{position: absolute;left: 395px;top: 0;}
+	.bottom-bot{padding-top: 40px;}
+	.bottom-bot li:nth-child(3){margin-top: 60px;}
+	.bottom-bot li p:nth-child(1){margin-bottom:35px;font-size: 18px;}
+	.bottom-bot .bottom-bot-right .left{text-align: center;}
+	.bottom-bot .bottom-bot-right{margin-top: 55px;}
+	.bottom-bot .bottom-bot-right .right img{margin-top: 15px;}
+	.copyright{color: #999;margin-top: 30px;}
+	.wapBottom{display: none;}
+}
+/*WAP部分*/
+@media (max-width:768px){
+	.list-detail{background-color: #fff;}
+	.nav-style{padding: 0;}
+	.navbar-header{padding: 0 .3rem}
+	.navbar-default .navbar-toggle{margin-top: 0.33rem;border:0;}
+	.navbar-default .navbar-toggle .icon-bar{background-color: white; width: 4px;height: 4px;border-radius: 2px;}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background-color: #4272B8;}
+	.nav-style{background-color: #4272B8;}
+	.logo{display:inline-block;width:3.5rem;height:1rem;margin:.15rem 0;background: url(img/wap/wapLogo.png)no-repeat;}
+	.header,.banner{padding: 0;float: none;}
+	.selectTicket{padding: 0;background-color: white;}
+	.selectTicket ul .active{background-color: white;}
+	.selectTicket ul li{float: left !important;background-color: #4272B8;color: white;}
+	.selectTicket ul .formBtn{padding:0;}
+	.selectTicket ul .formBtn a{color: white;margin:0;}
+	.selectTicket ul .active a{background-color: rgba(255,255,255,0);color: #4272B8;border-top: 2px solid #FC0101!important;}
+	.selectTicket ul .formBtn4{display: none;}
+	.ticketForm{padding: .3rem;}
+	.selectTicket .formDiv{border: 1px solid #D2D2D2;box-shadow: 0px 0px 3px 0px #5581C0;padding: 0;margin-bottom: .4rem;}
+	.selectTicket .formDiv3{border: 0;box-shadow:none;}
+	.selectTicket .formDiv3 input{width:3.3rem;border: 1px solid #D2D2D2;box-shadow: 0px 0px 3px 0px #5581C0;}
+	.radio-inline,.radioBox,.biaoyu{display: none;}
+	.ticketForm .textIpt{height: 1rem;border: 0;outline:none;}
+	.ticketForm .textIpt:nth-last-child(1){border-top: 1px solid #ccc;}
+	.selectTicket .formDiv .sub{background-color: #4272B8;color: white;width:6.9rem;margin-top: .2rem;}
+	.body{background-color: #F1F1F1;}
+	.OffersBox li{border-top:1px solid #F1F1F1;border-bottom: 1px solid #F1F1F1;padding: 15px 0 15px 10px;}
+	.OffersBox li:nth-of-type(odd){border-right: 1px solid #f1f1f1;}
+	.discounts{background-color: white;margin-top: 20px;}
+	.biaoti{font-size:.5rem;color: #666;line-height: 1rem;padding-left: .2rem;}
+	.discounts .cost{color: #d81e1e;}
+	.discounts .chufa,.discounts .depart{display: none;}
+	.OffersBox .Box-right .time,.guide{display: none;}
+	.OffersBox img{width: 1.8rem;}
+	.OffersBox .Box-right{margin-left: .3rem;}
+	.PromotionsTop{overflow: scroll;background-color: white;padding-bottom: .1rem;margin-bottom:.1rem;}
+	.Promotions .view{display: none;}
+	.Promotions ul li{display: inline-block;}
+	.PromotionsTop ul{width: 13.3rem}
+	.Promotions img{padding: 0;width: 6rem}
+	.Promotions .ProText{display: none;}
+	.PromotionsBottom{background-color: white;}
+	.PromotionsBottom span{font-size: .45rem;line-height: 1rem;}
+	.PromotionsBottom .active{border-bottom: 2px solid #D04646;}
+	.PromotionsBottom li{line-height: 1rem;border-bottom: 1px solid #D2D2D2;font-size: .35rem;}
+	.PromotionsBottom .text1{margin:0;}
+	.PromotionsBottom .text2{display: none;margin:0;}
+	.pcBottom{display: none;}
+	.wapBottom{background-color: #f1f1f1;}
+	.wapBottom p{border-bottom: 1px solid #B3B3B3;line-height: 1rem;margin:0;font-size: .4rem}
+}

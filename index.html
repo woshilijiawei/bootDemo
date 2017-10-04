@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="index.css">
+	<script src="bootstrap-3.3.7-dist/js/jquery.2.0.0.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<body class="">
+	<div class="header col-lg-12 col-xs-12">
+		<!-- 导航条 -->
+		<nav class="navbar navbar-default nav-style col-lg-11 col-xs-12 col-center-block">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed list" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <i class="logo col-lg-9 col-xs-6" src="img/pc/pcLogo.jpg" alt=""></i>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse list-detail" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">BOOK</a></li>
+		        <li><a href="#">PROMOTION</a></li>
+		        <li><a href="#">INFO&SESRVICE</a></li>
+		        <li><a href="#">PHOENIXMILES</a></li>
+		      </ul>
+		     
+		      <ul class="nav navbar-nav navbar-right">
+		      	<li class="li-one"><i class="national"></i><span>USA <i class="caret"></i> </span><i class="fenge"></i><span>English</span></li>
+		      	<li><a href=""><i href="#" class="glyphicon glyphicon-search"></i></a></li>
+		        <li><a href="#"><i class="glyphicon glyphicon-user"></i> Log in</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<img class="banner col-xs-12" src="img/wap/wapBanner.jpg" alt="">
+	</div>
+	<div class="body col-center-block clearfix">
+		<!-- 查机票表单 -->
+		<div class="bs-example col-lg-12 col-center-block selectTicket" data-example-id="simple-nav-justified" >
+		    <ul class="nav nav-tabs nav-justified">
+		      <li role="presentation" class="col-xs-4 formBtn active"><a href="#">Flight</a></li>
+		      <li role="presentation" class="col-xs-4 formBtn"><a href="#">Check in</a></li>
+		      <li role="presentation" class="col-xs-4 formBtn"><a href="#">Flight Status</a></li>
+		      <li role="presentation" class="formBtn formBtn4"><a href="#">Manage Booking</a></li>
+		    </ul>
+		    <div class="ticketForm clearfix">
+				<form action="">
+					<div class="radioBox">
+						<label class="radio-inline">
+						  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> round trip
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> one way
+						</label>
+						<span>Multi-City</span>
+					</div>
+					<div class="formDiv col-lg-5 col-xs-12">
+						<span class="biaoyu">From</span>
+						<!-- 出发点 -->
+						<input class="textIpt col-lg-12 col-xs-12" name="departure" type="text" value="Beijing, Capital International Airport (PEK)">
+						<!-- 目的地 -->
+						<input class="textIpt col-lg-12 col-xs-12" name="destination" type="text" value="Destination">
+					</div>
+					<div class="formDiv col-lg-4 col-xs-12">
+						<span class="biaoyu">Departing</span>
+						<!-- 日期 -->
+						<input class="textIpt col-lg-12 col-xs-12" name="" type="text" value="20/05/2015 SAT">
+						<!-- 返回 -->
+						<input class="textIpt col-lg-12 col-xs-12" name="" type="text" value="Returning ">
+					</div>
+					<div class="formDiv formDiv3 col-lg-3 col-xs-12" style="">
+						<!-- 舱级 -->
+						<input class="textIpt col-lg-12  wapIpt " name="" type="text" value="Cabin class">
+						<!-- 乘客 -->
+						<input class="textIpt col-lg-12 pull-right" name="" type="text" value="Passenger">
+						<input class="textIpt col-lg-12 col-xs-12 sub" type="submit" value="Search Flights">
+					</div>
+				</form>
+		    </div>
+	    </div>
+	<!-- 优惠 -->
+		<div class="discounts">
+			<span class="biaoti">Special Offers</span> <a href="#" class="chufa">beijing <i class="caret"></i></a><span class="depart">Depart</span>
+			<div class="OffersBox">
+				<ul class="clearfix">
+					<li class="col-lg-4 col-xs-6 clearfix">
+						<img class="pull-left" src="img/pc/index_en_03.jpg" alt="">
+						<div class="Box-right pull-left">
+							<p class="site">Chongqing</p>
+							<p class="time">2017.04.21</p>
+							<p class="cost">from $200</p>
+							<p class="economy">Economy</p>
+							<p class="guide">View Chongqing Guide</p>
+						</div>
+					</li>
+					<li class="col-lg-4 col-xs-6 clearfix">
+						<img class="pull-left" src="img/pc/index_en_03.jpg" alt="">
+						<div class="Box-right pull-left">
+							<p class="site">Chongqing</p>
+							<p class="time">2017.04.21</p>
+							<p class="cost">from $200</p>
+							<p class="economy">Economy</p>
+							<p class="guide">View Chongqing Guide</p>
+						</div>
+					</li>
+					<li class="col-lg-4 col-xs-6 clearfix">
+						<img class="pull-left" src="img/pc/index_en_03.jpg" alt="">
+						<div class="Box-right pull-left">
+							<p class="site">Chongqing</p>
+							<p class="time">2017.04.21</p>
+							<p class="cost">from $200</p>
+							<p class="economy">Economy</p>
+							<p class="guide">View Chongqing Guide</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 促销 -->
+		<div class="Promotions clearfix">
+			<div class="PromotionsTop">
+				<span class="biaoti">Promotions</span><a class="view" href="#">View all »</a>
+				<ul class="clearfix">
+					<li class="col-lg-6 clearfix">
+						<img src="img/pc/index_en_053.jpg" alt="">
+					</li>
+					<li class="col-lg-6 clearfix">
+						<img src="img/pc/index_en_0345.jpg" alt="">
+					</li>
+				</ul>
+				<p class="zhegai col-xs-12"> </p>
+			</div>
+			<ul class="ProText col-lg-6">
+				<li class="topic">Announcement<a href="#">View all  »</a></li>
+				<li><a href="#">Note on the time change of boarding gate</a><span>2017.05.04</span></li>
+				<li><a href="#">Note on the time change of boarding gate</a><span>2017.05.04</span></li>
+				<li><a href="#">Note on the time change of boarding gate</a><span>2017.05.04</span></li>
+			</ul>
+			<ul class="ProText col-lg-6">
+				<li class="topic">Announcement<a href="#">View all  »</a></li>
+				<li><a href="#">Note on the time change of boarding gate</a><span>2017.05.04</span></li>
+				<li><a href="#">Note on the time change of boarding gate</a><span>2017.05.04</span></li>
+				<li><a href="#">Note on the time change of boarding gate</a><span>2017.05.04</span></li>
+			</ul>
+			<!-- xs时显示 -->
+			<div class="PromotionsBottom">
+				<p><span class="col-xs-6 active textOne">Announcement</span><span class="col-xs-6 textTwo">News</span></p>
+				<ul class="clearfix text1">
+					<li class="col-xs-12">Note on the time change of boarding gate</li>
+					<li class="col-xs-12">Note on the time change of boarding gate</li>
+					<li class="col-xs-12">Note on the time change of boarding gate</li>
+				</ul>
+				<ul class="clearfix text2">
+					<li class="col-xs-12">Aircraft type adjustment notice</li>
+					<li class="col-xs-12">Aircraft type adjustment notice</li>
+					<li class="col-xs-12">Aircraft type adjustment notice</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 尾部 -->
+	<div class="bottom">
+		<div class="pcBottom">
+			<div class="bottom-top">
+				<ul class="clearfix col-center-block">
+					<li class="col-lg-4">
+						<img src="img/pc/index_en_10.jpg" alt="">
+						<p class="text-center vip">VIP Lounge</p>
+						<p class="text-center">Free snacks, drinks, shower internet access Free to spend time</p>
+					</li>
+					<li class="col-lg-4">
+						<img src="img/pc/index_en_12.jpg" alt="">
+						<p class="text-center vip">VIP Lounge</p>
+						<p class="text-center">Free snacks, drinks, shower internet access Free to spend time</p>
+					</li>
+					<li class="col-lg-4">
+						<img src="img/pc/index_en_15.jpg" alt="">
+						<p class="text-center vip">VIP Lounge</p>
+						<p class="text-center">Free snacks, drinks, shower internet access Free to spend time</p>
+					</li>
+				</ul>
+				<ul class="col-center-block ulTwo">
+					<li>> Prepaid luggage</li>
+					<li>> Prepaid seats selection</li>
+					<li>> Hotel, taxi reservation</li>
+					<li>> Truck-air-truck</li>
+					<li>> PhoenixMiles redeem</li>
+				</ul>
+			</div>
+			<img class="feiji" src="img/pc/index222111_en_03.png" alt="">
+			<div class="bottom-bot clearfix">
+				<ul class="clearfix col-lg-8">
+					<li class="col-lg-4">
+						<p class="text-center">Get To Know Us</p>
+						<p class="text-center">About Air China</p>
+						<p class="text-center">Contact us</p>
+						<p class="text-center">Business travel</p>
+						<p class="text-center">Global Sales Department</p>
+						<p class="text-center">Join us</p>
+						<p class="text-center">Investor Relations</p>
+					</li>
+					<li class="col-lg-4">
+						<p class="text-center">Get To Know Us</p>
+						<p class="text-center">About Air China</p>
+						<p class="text-center">Contact us</p>
+						<p class="text-center">Business travel</p>
+						<p class="text-center">Global Sales Department</p>
+						<p class="text-center">Join us</p>
+						<p class="text-center">Investor Relations</p>
+					</li>
+					<li class="col-lg-4">
+						<p class="text-center">Get To Know Us</p>
+						<p class="text-center">About Air China</p>
+						<p class="text-center">Contact us</p>
+						<p class="text-center">Business travel</p>
+						<p class="text-center">Global Sales Department</p>
+					</li>
+				</ul>
+				<div class="bottom-bot-right col-lg-4">
+					<div class="col-lg-6 left">
+						<img src="img/pc/index_en_21.jpg" alt="">
+						<p class="text-center">Air China APP</p>
+						<p class="text-center">Schedule management</p>
+						<p class="text-center">Your intimate flying assistant</p>
+					</div>
+					<div class="col-lg-3 right">
+						<img src="img/pc/index1111_en_03.png" alt="">
+						<img src="img/pc/index_en_06.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wapBottom">
+			<p class="col-lg-12">Contact us</p>
+			<p class="col-lg-12">Travel arrangements</p>
+			<p class="col-lg-12">Get to know us</p>
+		</div>
+		<p class="text-center copyright"> Privacy Policy |  Legal Notice 2017 © Copyright Air China Ltd. All Rights eserved.</p>
+	</div>
+
+	<script>
+		$('.formBtn').click(function(){
+			$('.active').removeClass('active');
+			$(this).addClass("active");
+		})
+		$('.textOne').click(function(){
+			$('.active').removeClass('active');
+			$(this).addClass('active');
+			$('.text2').hide();
+			$('.text1').show();
+		})
+		$('.textTwo').click(function(){
+			$('.active').removeClass('active');
+			$(this).addClass('active');
+			$('.text1').hide();
+			$('.text2').show();
+		})
+	</script>
+</body>
+</html>
